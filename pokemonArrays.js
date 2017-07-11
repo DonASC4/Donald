@@ -1,0 +1,10 @@
+var myPokemonArray = ["Aggron", "Charizard", "Lucario", "Alakazam", "Diglet"];
+var firstToFight = myPokemonArray[0];
+var secondToFight = myPokemonArray[1];
+myPokemonArray.pop();
+myPokemonArray.push("Blastoise", "Mewtwo");
+var RosterSize = myPokemonArray.length;
+console.log(myPokemonArray);
+console.log(RosterSize);
+console.log(firstToFight);
+console.log(secondToFight);
