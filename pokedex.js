@@ -22,7 +22,7 @@ aggronSpeed = 218;
 "SP Attack(max): " +aggronSpAttack,
 "Defense(max): " +aggronDefense,
 "Sp Defense(max): " +aggronSpDefense,
-"Speed: " +aggronSpeed]
+"Speed(max): " +aggronSpeed]
 
 var lucarioHP = 344,
 lucarioNum = 448,
@@ -47,7 +47,7 @@ myArray2 = ["HP: " +lucarioHP, "National #: " +lucarioNum, "Type: " +lucarioType
 "SP Attack(max): " +lucarioSpAttack,
 "Defense(max): " +lucarioDefense,
 "Sp Defense(max): " +lucarioSpDefense,
-"Speed: " +lucarioSpeed]
+"Speed(max): " +lucarioSpeed]
 
 var alakazamHP = 314,
 alakazamNum = 65,
@@ -72,7 +72,7 @@ alakazamSpeed = 372;
 "SP Attack(max): " +alakazamSpAttack,
 "Defense(max): " +alakazamDefense,
 "Sp Defense(max): " +alakazamSpDefense,
-"Speed: " +alakazamSpeed]
+"Speed(max): " +alakazamSpeed]
 
 var pikachuHP = 274,
 pikachuNum = 25,
@@ -97,7 +97,7 @@ var myArray4 = ["HP: " +pikachuHP, "National #: " +pikachuNum, "Type: " +pikachu
 "SP Attack(max): " +pikachuSpAttack,
 "Defense(max): " +pikachuDefense,
 "Sp Defense(max): " +pikachuSpDefense,
-"Speed: " +pikachuSpeed]
+"Speed(max): " +pikachuSpeed]
 
 var charizardHP = 360,
 charizardNum = 6,
@@ -122,7 +122,7 @@ var myArray5 = ["HP: " +charizardHP, "National #: " +charizardNum, "Type: " +cha
 "SP Attack(max): " +charizardSpAttack,
 "Defense(max): " +charizardDefense,
 "Sp Defense(max): " +charizardSpDefense,
-"Speed: " +charizardSpeed]
+"Speed(max): " +charizardSpeed]
 
 var mewtwoHP = 416,
 mewtwoNum = 150,
@@ -147,7 +147,7 @@ var myArray6 = ["HP: " +mewtwoHP, "National #: " +mewtwoNum, "Type: " +mewtwoTyp
 "SP Attack(max): " +mewtwoSpAttack,
 "Defense(max): " +mewtwoDefense,
 "Sp Defense(max): " +mewtwoSpDefense,
-"Speed: " +mewtwoSpeed]
+"Speed(max): " +mewtwoSpeed]
 
 var eeveeHP = 314,
 eeveeNum = 133,
@@ -172,7 +172,7 @@ var myArray7 = ["HP: " +eeveeHP, "National #: " +eeveeNum, "Type: " +eeveeType,"
 "SP Attack(max): " +eeveeSpAttack,
 "Defense(max): " +eeveeDefense,
 "Sp Defense(max): " +eeveeSpDefense,
-"Speed: " +eeveeSpeed]
+"Speed(max): " +eeveeSpeed]
 
 var gengarHP = 314,
 gengarNum = 94,
@@ -197,7 +197,7 @@ var myArray8 = ["HP: " +gengarHP, "National #: " +gengarNum, "Type: " +gengarTyp
 "SP Attack(max): " +gengarSpAttack,
 "Defense(max): " +gengarDefense,
 "Sp Defense(max): " +gengarSpDefense,
-"Speed: " +gengarSpeed]
+"Speed(max): " +gengarSpeed]
 
 var blazikenHP = 364,
 blazikenNum = 257,
@@ -222,7 +222,7 @@ var myArray9 = ["HP: " +blazikenHP, "National #: " +blazikenNum, "Type: " +blazi
 "SP Attack(max): " +blazikenSpAttack,
 "Defense(max): " +blazikenDefense,
 "Sp Defense(max): " +blazikenSpDefense,
-"Speed: " +blazikenSpeed]
+"Speed(max): " +blazikenSpeed]
 
 var lugiaHP = 416,
 lugiaNum = 249,
@@ -247,10 +247,10 @@ var myArray10 = ["HP: " +lugiaHP, "National #: " +lugiaNum, "Type: " +lugiaType,
 "SP Attack(max): " +lugiaSpAttack,
 "Defense(max): " +lugiaDefense,
 "Sp Defense(max): " +lugiaSpDefense,
-"Speed: " +lugiaSpeed]
+"Speed(max): " +lugiaSpeed]
 
 var rayquazaHP = 414,
-rayquzaNum = 249,
+rayquazaNum = 249,
 rayquazaType = "Dragon/Flying",
 rayquazaHyperVoice = 90
 rayquazaOutrage = 120
@@ -262,6 +262,17 @@ rayquazaSpAttack = 438,
 rayquazaDefense = 306,
 rayquazaSpDefense = 306,
 rayquazaSpeed = 317;
+
+var myArray11 = ["HP: " +rayquazaHP, "National #: " +rayquazaNum, "Type: " +rayquazaType,"Hyper Voice move damage: " +rayquazaHyperVoice,
+"Outrage move damage: " +rayquazaOutrage,
+"Hyper Beam move damage: " +rayquazaHyperBeam,
+"Best Move: " +rayquazaBestMove,
+"Is this its last evolution?: " +rayquazaLastEvo,
+"Attack(max): " +rayquazaAttack,
+"SP Attack(max): " +rayquazaSpAttack,
+"Defense(max): " +rayquazaDefense,
+"Sp Defense(max): " +rayquazaSpDefense,
+"Speed(max): " +rayquazaSpeed]
 
     if (pokemonName == "Aggron"){
         for (i=0; i<13; i++){
@@ -303,9 +314,13 @@ rayquazaSpeed = 317;
         for (i=0; i<13; i++){
             console.log(myArray10[i]);
         }
+    } else if (pokemonName == "Rayquaza"){
+        for (i=0; i<13; i++){
+            console.log(myArray11[i]);
+        }
     } else {
         console.log("error, pokemon not found.")
     }
 };
 
-pokemonStatFinder("Riolu");
+pokemonStatFinder("Alakazam");
