@@ -10,7 +10,15 @@
 //      console.log("Win!");
 //  }
  var myArray = ["bob", "mahdi", "cyril", "juan", "mike"];
- for( var i=0; i<5; i++) {
+ for (i=0; i<5; i++) {
      console.log(myArray[i]);
  }
  //Nailed it
+
+ var i = 0
+ while (i<6) {
+     console.log(myArray[i]);
+     i++
+ };
+
+ 

@@ -43,14 +43,16 @@ alakazamSpeed = 372;
 console.log("Aggron uses Rock Slide");
 console.log("LucarioHP - 90");
 var lucarioHP = lucarioHP - 90;
-console.log("lucarioHP: " + lucarioHP);
+console.log("RemainingHP: " + lucarioHP);
 console.log("It Hits!");
 
 console.log("Lucario uses Bone rush");
 console.log("AggronHP is unchanged");
 var aggronHP = aggronHP
-console.log(aggronHP);
+console.log("Remaining: " + aggronHP);
 console.log("...It misses");
+
+console.log("Aggron uses Double Edge ")
 
 var alakazamHP = alakazamHP - 50;
 console.log(alakazamHP);
