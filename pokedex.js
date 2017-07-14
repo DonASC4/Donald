@@ -323,7 +323,34 @@ var myArray13 = ["General Info: " +squirtleInfo, "HP: " +squirtleHP, "National #
 "SP Attack(max): " +squirtleSpAttack,
 "Defense(max): " +squirtleDefense,
 "Sp Defense(max): " +squirtleSpDefense,
-"Speed(max): " +squirtleSpeed]
+"Speed(max): " +squirtleSpeed];
+
+
+var greninjaInfo = "Greninja was introduced in generation 6 and is known as the 'Ninja Pokemon'. It can create ninja stars out of water and vanish with a ninja's grace.",
+greninjaHP = 348,
+greninjaNum = 658,
+greninjaType = "Water/Dark",
+greninjaNightSlash = 70
+greninjaExtrasensory = 80
+greninjaHydroPump = 110
+greninjaBestMove = "Hydro Pump",
+greninjaLastEvo = true,
+greninjaAttack = 348,
+greninjaSpAttack = 335,
+greninjaDefense = 256,
+greninjaSpDefense = 265,
+greninjaSpeed = 377;
+
+var myArray14 = ["General Info: " +greninjaInfo, "HP: " +greninjaHP, "National #: " +greninjaNum, "Type: " +greninjaType,"Night Slash move damage: " +greninjaNightSlash,
+"Extrasensory move damage: " +greninjaExtrasensory,
+"Hydro Pump move damage: " +greninjaHydroPump,
+"Best Move: " +greninjaBestMove,
+"Is this its last evolution?: " +greninjaLastEvo,
+"Attack(max): " +greninjaAttack,
+"SP Attack(max): " +greninjaSpAttack,
+"Defense(max): " +greninjaDefense,
+"Sp Defense(max): " +greninjaSpDefense,
+"Speed(max): " +greninjaSpeed];
 
     if (pokemonName == "Aggron"){
         for (i=0; i<13; i++){
@@ -377,38 +404,13 @@ var myArray13 = ["General Info: " +squirtleInfo, "HP: " +squirtleHP, "National #
         for (i=0; i<14; i++){
             console.log(myArray13[i]);
         }
+    } else if (pokemonName == "Greninja"){
+        for (i=0; i<14; i++){
+            console.log(myArray14[i]);
+        }
     } else {
-        console.log("error, pokemon not found.")
+        console.log("error, pokemon not found.");
     }
 };
-var charizardHP = 360,
-charizardNum = 6,
-charizardType = "Fire/Flying",
-charizardHeatWave = 95
-charizardInferno = 100
-charizardFlareBlitz = 120
-charizardBestMove = "Flare Blitz",
-charizardLastEvo = false,
-charizardAttack = 293,
-charizardSpAttack = 348,
-charizardDefense = 280,
-charizardSpDefense = 295,
-charizardSpeed = 328;
-
-var pikachuHP = 274,
-pikachuNum = 25,
-pikachuType = "Electric",
-pikachuWildCharge = 90
-pikachuThunderBolt = 90
-pikachuThunder = 110
-pikachuBestMove = "Thunder",
-pikachuLastEvo = false,
-pikachuAttack = 229,
-pikachuSpAttack = 218,
-pikachuDefense = 196,
-pikachuSpDefense = 218,
-pikachuSpeed = 306; 
 
 pokemonStatFinder("Pikachu");
-console.log(pikachuAttack+pikachuSpAttack, pikachuHP);
-console.log(charizardAttack+charizardSpAttack, charizardHP);
