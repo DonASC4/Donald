@@ -274,6 +274,57 @@ var myArray11 = ["HP: " +rayquazaHP, "National #: " +rayquazaNum, "Type: " +rayq
 "Sp Defense(max): " +rayquazaSpDefense,
 "Speed(max): " +rayquazaSpeed]
 
+var garchompHP = 414,
+garchompNum = 445,
+garchompType = "Dragon/Ground",
+garchompDragonClaw = 80
+garchompTakedown = 90
+garchompDragonRush = 100
+garchompBestMove = "Dragon Rush",
+garchompLastEvo = true,
+garchompAttack = 394,
+garchompSpAttack = 294,
+garchompDefense = 317,
+garchompSpDefense = 295,
+garchompSpeed = 333;
+
+var myArray12 = ["HP: " +garchompHP, "National #: " +garchompNum, "Type: " +garchompType,"Dragon Claw move damage: " +garchompDragonClaw,
+"Takedown move damage: " +garchompTakedown,
+"Dragon Rush move damage: " +garchompDragonRush,
+"Best Move: " +garchompBestMove,
+"Is this its last evolution?: " +garchompLastEvo,
+"Attack(max): " +garchompAttack,
+"SP Attack(max): " +garchompSpAttack,
+"Defense(max): " +garchompDefense,
+"Sp Defense(max): " +garchompSpDefense,
+"Speed(max): " +garchompSpeed]
+
+var squirtleInfo = "Squirtle was introduced in generation 1 and is otherwise known as the 'Tiny Turtle Pokemon'. Also, its hard shell isn't just for protection and actually minimizes resistance in water, improving swiming speed.",
+squirtleHP = 292,
+squirtleNum = 7,
+squirtleType = "Water",
+squirtleWaterPulse = 60
+squirtleAquaTail = 90
+squirtleSkullBash = 130
+squirtleBestMove = "Skull Bash",
+squirtleLastEvo = false,
+squirtleAttack = 214,
+squirtleSpAttack = 218,
+squirtleDefense = 351,
+squirtleSpDefense = 249,
+squirtleSpeed = 203;
+
+var myArray13 = ["General Info: " +squirtleInfo, "HP: " +squirtleHP, "National #: " +squirtleNum, "Type: " +squirtleType,"Water Pulse move damage: " +squirtleWaterPulse,
+"Aqua Tail move damage: " +squirtleAquaTail,
+"Skull Bash move damage: " +squirtleSkullBash,
+"Best Move: " +squirtleBestMove,
+"Is this its last evolution?: " +squirtleLastEvo,
+"Attack(max): " +squirtleAttack,
+"SP Attack(max): " +squirtleSpAttack,
+"Defense(max): " +squirtleDefense,
+"Sp Defense(max): " +squirtleSpDefense,
+"Speed(max): " +squirtleSpeed]
+
     if (pokemonName == "Aggron"){
         for (i=0; i<13; i++){
     console.log(myArray[i]);
@@ -318,9 +369,46 @@ var myArray11 = ["HP: " +rayquazaHP, "National #: " +rayquazaNum, "Type: " +rayq
         for (i=0; i<13; i++){
             console.log(myArray11[i]);
         }
+    } else if (pokemonName == "Garchomp"){
+        for (i=0; i<13; i++){
+            console.log(myArray12[i]);
+        }
+    } else if (pokemonName == "Squirtle"){
+        for (i=0; i<14; i++){
+            console.log(myArray13[i]);
+        }
     } else {
         console.log("error, pokemon not found.")
     }
 };
+var charizardHP = 360,
+charizardNum = 6,
+charizardType = "Fire/Flying",
+charizardHeatWave = 95
+charizardInferno = 100
+charizardFlareBlitz = 120
+charizardBestMove = "Flare Blitz",
+charizardLastEvo = false,
+charizardAttack = 293,
+charizardSpAttack = 348,
+charizardDefense = 280,
+charizardSpDefense = 295,
+charizardSpeed = 328;
 
-pokemonStatFinder("Alakazam");
+var pikachuHP = 274,
+pikachuNum = 25,
+pikachuType = "Electric",
+pikachuWildCharge = 90
+pikachuThunderBolt = 90
+pikachuThunder = 110
+pikachuBestMove = "Thunder",
+pikachuLastEvo = false,
+pikachuAttack = 229,
+pikachuSpAttack = 218,
+pikachuDefense = 196,
+pikachuSpDefense = 218,
+pikachuSpeed = 306; 
+
+pokemonStatFinder("Pikachu");
+console.log(pikachuAttack+pikachuSpAttack, pikachuHP);
+console.log(charizardAttack+charizardSpAttack, charizardHP);

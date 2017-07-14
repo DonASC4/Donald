@@ -51,8 +51,5 @@ console.log("AggronHP is unchanged");
 var aggronHP = aggronHP
 console.log("Remaining: " + aggronHP);
 console.log("...It misses");
-
-console.log("Aggron uses Double Edge ")
-
-var alakazamHP = alakazamHP - 50;
-console.log(alakazamHP);
+var n = prompt("hello, how are you");
+console.log(n);
