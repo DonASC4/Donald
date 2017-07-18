@@ -37,6 +37,6 @@ var array2 = ["Charizard", 64, 360]
 function pokeAttack(array1, array2){
     array2[2] -= array1[1];
     return array2;
-;}
+};
 
 console.log(pokeAttack(array1, array2));

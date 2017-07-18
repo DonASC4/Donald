@@ -64,6 +64,72 @@ alakazamSpeed]];
 
 var Alakazam = alakazamArray;
 
+var garchompHP = 414,
+garchompNum = 445,
+garchompType = "Dragon/Ground",
+garchompDragonClaw = 80
+garchompTakedown = 90
+garchompDragonRush = 100
+garchompBestMove = "Dragon Rush",
+garchompLastEvo = true,
+garchompAttack = 394,
+garchompSpAttack = 294,
+garchompDefense = 317,
+garchompSpDefense = 295,
+garchompSpeed = 333;
+
+var garchompArray = ["Garchomp",[garchompHP,garchompDragonClaw,garchompTakedown,garchompDragonRush,garchompAttack,
+garchompSpAttack,
+garchompDefense,
+garchompSpDefense,
+garchompSpeed]];
+
+var Garchomp = garchompArray
+
+var rayquazaHP = 414,
+rayquazaNum = 249,
+rayquazaType = "Dragon/Flying",
+rayquazaHyperVoice = 90
+rayquazaOutrage = 120
+rayquazaHyperBeam = 150
+rayquazaBestMove = "Hyper Beam",
+rayquazaLastEvo = true,
+rayquazaAttack = 438,
+rayquazaSpAttack = 438,
+rayquazaDefense = 306,
+rayquazaSpDefense = 306,
+rayquazaSpeed = 317;
+
+var rayquazaArray = ["Rayquaza",[rayquazaHP,rayquazaHyperVoice,rayquazaOutrage,rayquazaHyperBeam,rayquazaAttack,
+rayquazaSpAttack,
+rayquazaDefense,
+rayquazaSpDefense,
+rayquazaSpeed]];
+
+var Rayquaza = rayquazaArray
+
+var lugiaHP = 416,
+lugiaNum = 249,
+lugiaType = "Psychic/Flying",
+lugiaHydroPump = 110
+lugiaFutureSight = 120
+lugiaSkyAttack = 140
+lugiaBestMove = "Sky Attack",
+lugiaLastEvo = true,
+lugiaAttack = 306,
+lugiaSpAttack = 306,
+lugiaDefense = 394,
+lugiaSpDefense = 447,
+lugiaSpeed = 350;
+
+var lugiaArray = ["Lugia",[lugiaHP,lugiaHydroPump,lugiaFutureSight,lugiaSkyAttack,lugiaAttack,
+lugiaSpAttack,
+lugiaDefense,
+lugiaSpDefense,
+lugiaSpeed]];
+
+var Lugia = lugiaArray
+
 function pokemonCompare(pokemon1, pokemon2){
 if (pokemon1[1][0] == pokemon2[1][0]){
     console.log("HP = same");
@@ -97,4 +163,4 @@ if (pokemon1[1][0] == pokemon2[1][0]){
     console.log(pokemon2[0]+" is faster");
 } 
 };
-console.log(pokemonCompare(Aggron, Alakazam));
+console.log(pokemonCompare(Rayquaza,Lugia));

@@ -1,4 +1,8 @@
-var myArray = ["list",9, 5<4];
-console.log(myArray);
-myArray[10^24] = "woah";
-console.log(myArray);
+var games = [["Dragon ball z","Zelda","Sonic"],["Tekken 7","Madden"]];
+function gamesLoop(){
+    for (i=0; i<1; i++){
+        console.log(games[0]);
+        console.log(games[1]);
+    }
+};
+gamesLoop();

@@ -51,5 +51,3 @@ console.log("AggronHP is unchanged");
 var aggronHP = aggronHP
 console.log("Remaining: " + aggronHP);
 console.log("...It misses");
-var n = prompt("hello, how are you");
-console.log(n);
