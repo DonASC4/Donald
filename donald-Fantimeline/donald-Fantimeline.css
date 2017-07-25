@@ -1,0 +1,20 @@
+.top{
+    text-align: center;
+}
+.img{
+    vertical-align: middle;
+    width: 60%;
+    margin-left: 500px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.first{
+    border: solid 2px blue;
+}
+.second{
+    border: solid 2px red;
+}
+.third{
+    border: solid 2px navy;
+}
