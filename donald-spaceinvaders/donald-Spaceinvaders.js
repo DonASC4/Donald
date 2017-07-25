@@ -23,10 +23,11 @@ function Enemies(shape,x,y,hit,w,h) {
 var w = 50;
 var h = 50;
 var counter = 0;
+var projArray = [];
 function draw() {
 
     background(0);
-var projArray = [];
+
 counter ++ 
 if(counter >= frameRate()){
     if (keyIsDown(32)){
