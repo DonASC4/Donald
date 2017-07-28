@@ -1,0 +1,34 @@
+.headerContent img{
+    width: 500px;
+    margin: 0px 50px;
+}
+.headerChar1{
+    width: 250px;
+}
+p2{
+    display: block;
+}
+
+h3{
+    display: block;
+}
+.headerChar2{
+    width: 250px;
+}
+.headerChar3{
+    width: 250px;
+}
+.headerChar4{
+    width: 250px;
+}
+.game2img{
+    width: 500px;
+    margin: 0px 50px;
+    padding: 50px;
+}
+body{
+    color: black;
+}
+.navbarnavbar-default{
+    padding: 20px 0 0 0;
+}
