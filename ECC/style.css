@@ -1,0 +1,50 @@
+    h1 {
+        text-align: center;
+    }
+    
+    .info1 {
+        text-align: center;
+    }
+    
+    h4 {
+        display: block;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .ECC {
+        padding: 10px 0px 10px 0px;
+    }
+    
+    body {
+        background-image: url();
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        font-family: 'Armata', sans-serif;
+    }
+    
+    .container {
+        max-width: 800px;
+    }
+    
+    @media (max-width: 500px) {
+        h1 {
+            text-align: center;
+        }
+        .info1 {
+            text-align: center;
+        }
+        h4 {
+            display: block;
+            padding: 25px 25px 25px 25px;
+        }
+    }
+    
+    head {
+        font-family: 'Armata', sans-serif;
+    }
+    
+    footer {
+        color: white;
+        padding: 20px;
+        background: navy;
+    }

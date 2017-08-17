@@ -1,0 +1,42 @@
+.container {
+    max-width: 800px;
+    font-family: 'Armata', sans-serif;
+}
+
+.ECC {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+#sendmessage {
+    padding: 10px 0px;
+}
+
+#enterBars {
+    display: block;
+}
+
+.info-block {
+    text-align: center;
+    padding: 20px;
+}
+
+#devName {
+    padding: 20px;
+}
+
+#contactButtons {
+    padding: 20px;
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    background: navy;
+}
+
+@media (max-width: 500px) {
+    h3 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    font-family: 'Armata', sans-serif;
+}
+
+.oreoNameBrand {
+    padding: 20px 50px 20px 50px;
+    display: block;
+}
+
+.oreoGeneric {
+    padding: 20px 50px 20px 50px;
+    display: block;
+}
+
+.oreoOption {
+    margin: 20px 50px 20px 50px;
+    display: block;
+    width: 250px;
+}
+
+.oreoGenericImg {
+    width: 250px;
+}
+
+.oreoImg {
+    width: 250px;
+}
+
+.ECC {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background: navy;
+    padding: 20px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: 800px
+    }
+    .oreoNameBrand {
+        padding: 20px 50px 20px 50px;
+        display: block;
+    }
+    .oreoGeneric {
+        padding: 20px 50px 20px 50px;
+        display: block;
+    }
+    .oreoOption {
+        margin: 20px 50px 20px 50px;
+        display: block;
+        width: 250px;
+    }
+    .oreoGenericImg {
+        width: 250px;
+    }
+    .oreoImg {
+        width: 250px;
+    }
+    .ECC {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    footer {
+        color: white;
+        background: navy;
+        padding: 20px;
+    }
+}

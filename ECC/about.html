@@ -1,0 +1,134 @@
+<html>
+
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./about.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+    <!--Reference platform.js library here-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!--Reference Client ID in meta tag here-->
+    <!--770242638790-idr9kibltrv0o01oo76i1pm5duqde6m0.apps.googleusercontent.com-->
+    <meta name="google-signin-client_id" content="770242638790-idr9kibltrv0o01oo76i1pm5duqde6m0.apps.googleusercontent.com">
+    <script src="./about.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="./index.html">ECC</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search ECC" aria-label="Search" id="box">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="search">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <h1 class="ECC"> Every Cent Counts </h1>
+        </header>
+        <h1 class="email"> </h1>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <a href="#" class="signOut" onclick="onSignOut();">Sign out</a>
+
+        <div class="info-block">
+            <h3>Save money the smart way using ECC!</h3>
+            <p3>Every Cent Counts, or ECC, is a website designed to save you money where it counts. By comparing the prices of essential products across brands and locations, ECC provides users with the best deals out there!</p3>
+        </div>
+
+        <div class="info-block">
+            <h3>Why was ECC made?</h3>
+            <p3>ECC was made in an attempt to offer people a quick and accessible resource that shows them alternative options for common household and personal items.
+        </div>
+
+        <div class="info-block">
+            <h3>How do you use the website?</h3>
+            <p3>The home page or the first page you see when you vist the website contains all of the product currently listed on the website. However, if you search a product (making sure to double click the search button), it will bring up another page
+                with the recommended alternative or name brand from the front page as well as links to corresponding reviews and places to purchase them.</p3>
+
+
+            <footer class="text-center">
+                <div class="footer-above">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col col-md-4">
+                                <h3>Location</h3>
+                                <p>1 Woodland Rd <br>Pittsburgh, PA 15232</p>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3></h3>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a class="btn-social btn-outline" href="#">
+                                            <i class="fa fa-fw fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn-social btn-outline" href="#">
+                                            <i class="fa fa-fw fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn-social btn-outline" href="#">
+                                            <i class="fa fa-fw fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn-social btn-outline" href="#">
+                                            <i class="fa fa-fw fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="btn-social btn-outline" href="#">
+                                            <i class="fa fa-fw fa-dribbble"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col col-md-4">
+                                <h3>ECC</h3>
+                                <p>Have more, spend less
+                                    <p>
+                                        <a href="#"></a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-below">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                Copyright © EveryCentCounts.com 2017
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="scroll-top d-lg-none">
+                <a class="btn btn-primary page-scroll" href="#page-top">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </div>
+</body>
+</div>
+
+</html>

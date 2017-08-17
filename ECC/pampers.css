@@ -1,0 +1,37 @@
+.container {
+    max-width: 800px
+}
+
+.pamperNameBrand {
+    padding: 20px 50px 20px 50px;
+    display: block;
+}
+
+.pamperGeneric {
+    padding: 20px 50px 20px 50px;
+    display: block;
+}
+
+.pamperOption {
+    width: 250px;
+    margin: 20px 50px 20px 50px;
+    display: block;
+}
+
+.pamperGenericImg {
+    width: 250px;
+}
+
+.pamperImg {
+    width: 250px;
+}
+
+.ECC {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background: navy;
+    padding: 20px;
+}
